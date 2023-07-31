@@ -1,5 +1,6 @@
 /**
  * Copyright (c) 2012, md_5. All rights reserved.
+ * Copyright (c) 2023, pandaninjas. 
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
@@ -41,6 +42,7 @@ import net.md_5.specialsource.repo.JarRepo;
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassWriter;
 import org.objectweb.asm.tree.ClassNode;
+import java.nio.file.attribute.FileTime;
 import static org.objectweb.asm.ClassWriter.*;
 
 public class JarRemapper extends CustomRemapper {

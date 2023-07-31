@@ -209,7 +209,9 @@ public class JarRemapper extends CustomRemapper {
                         buffer.flush();
                         data = buffer.toByteArray();
                     }
-                    entry.setTime(0);
+                    entry.setCreationTime(FileTime.fromMillis(0L));
+                    entry.setLastAccessTime(FileTime.fromMillis(0L));
+                    entry.setLastModifiedTime(FileTime.fromMillis(0L));
                     out.putNextEntry(entry);
                     out.write(data);
                 } finally {

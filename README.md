@@ -1,4 +1,4 @@
 Special Source
 ==============
 
-Automatic generator and renamer of jar obfuscation mappings. 
+SpecialSource used by The Fight Against Malware.
